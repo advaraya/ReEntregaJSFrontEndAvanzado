@@ -1,0 +1,32 @@
+.headerImage {
+  margin-bottom: 20px;
+}
+
+.cardBeer {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px lightgray solid;
+}
+
+.imgBeer {
+  width: 50%;
+}
+
+.beerProfileImg {
+  width: 50%;
+  margin-right: 10px;
+}
+
+#addComment {
+  height: 5em;
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .imgBeer {
+    width: 20%;
+  }
+  .beerProfileImg {
+    width: 10%;
+  }
+}

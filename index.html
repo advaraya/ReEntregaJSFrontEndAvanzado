@@ -1,0 +1,59 @@
+<DOCTYPE html!>
+	
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="id-edge">
+	<meta name="description" content="La mejor base de datos de cervezas del mundo">
+	<meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="css/styles.css" >
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Inicio | BeerFlix</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="imagenes/logo-beerflix.png" width="60" height="60 class=" d-inline-block align-top" alt="Logo" />
+			BeerFlix
+		</a>
+	</nav>
+	<main>
+		<div class="headerImage">
+			<picture>
+				<img 
+				class="img-fluid" alt="Responsive image" 
+				srcset="
+				    imagenes/imagenDeCabecera@mobile.jpg 320w,
+					imagenes/imagenDeCabecera@tablet.jpg 768w,
+					imagenes/imagenDeCabecera@hires.jpg 1280w,
+					"
+				  media="(min-width: 768px)"
+				>
+			</picture>
+		</div>
+		<div id="main-content" class="container">
+			<div id="beer-profile"></div>
+			<div id="list-interface">
+				<!-- Filters -->
+				<div id="filtersForList"></div>
+				<hr>
+				<!-- Beer List -->
+				<div id="beerList"><div>
+			</div>
+
+			
+		</div>
+		<!-- /container -->
+
+
+	</main>
+</body>
+<footer>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="js/api.js"></script>
+	<script src="js/beerlist.js"></script>
+	<script src="js/beerprofile.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/main.js"></script>
+</footer>
